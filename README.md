@@ -1,8 +1,35 @@
-# React + Vite
+# 3D Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An animated 3D portfolio-style website, plus a later experiment building a 3D scroll animation without React.
 
-Currently, two official plugins are available:
+## Context
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+| | |
+|---|---|
+| **Type** | Personal learning project |
+| **Built** | May – July 2024 |
+| **Based on** | v1 follows a React Three Fiber 3D portfolio tutorial |
+
+## Versions
+
+| Tag | Date | What changed |
+|---|---|---|
+| `v1` | May 2024 | React + Vite + Tailwind site with Hero, About, Experience, Tech, Works, Feedbacks and Contact sections |
+| `v2` | Jul 2024 | `experiments/3d-ball-no-react/`: plain HTML/CSS/JS animation driven by an image sequence rendered in Blender |
+
+## Tech
+
+React · Vite · Tailwind CSS · Three.js · Blender · vanilla JavaScript
+
+## Run it
+
+```bash
+npm install
+npm run dev
+```
+
+The v2 experiment runs by opening `experiments/3d-ball-no-react/index.html` in a browser.
+
+## What I learned
+
+3D on the web with React, and then how to fake a 3D effect without a framework by playing back pre-rendered Blender frames.
